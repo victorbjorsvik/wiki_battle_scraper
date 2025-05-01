@@ -27,9 +27,11 @@ class BattleSpider(scrapy.Spider):
             divs = soup.find_all(
                 'div', class_=re.compile(r'.*\binfobox\b.*', flags=re.IGNORECASE)
             )
-        
-        # Combine both types of infoboxes
-        infoboxes = list(tables) + list(divs)
+
+            # Combine both types of infoboxes
+            infoboxes = list(tables) + list(divs)
+        else:
+            infoboxes = tables
         
         if not infoboxes:
             self.logger.warning(f"No battle box found for URL: {response.url}")

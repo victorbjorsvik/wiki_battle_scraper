@@ -1,0 +1,189 @@
+2025-05-01 20:22:24 [INFO] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-05-01 20:22:24 [INFO] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-05-01 20:22:24 [INFO] Enabled item pipelines:
+['battles.pipelines.RawHtmlPipeline']
+2025-05-01 20:22:24 [INFO] Spider opened
+2025-05-01 20:22:24 [INFO] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-05-01 20:22:24 [INFO] Telnet console listening on 127.0.0.1:6023
+2025-05-01 20:22:24 [INFO] Found 1 battle box(es) for URL: https://ca.wikipedia.org/w/index.php?oldid=8080104.0
+2025-05-01 20:22:24 [INFO] Successfully scraped battle box from: https://ca.wikipedia.org/w/index.php?oldid=8080104.0
+2025-05-01 20:22:24 [INFO] Found 1 battle box(es) for URL: https://es.wikipedia.org/w/index.php?oldid=67930889.0
+2025-05-01 20:22:24 [INFO] Successfully scraped battle box from: https://es.wikipedia.org/w/index.php?oldid=67930889.0
+2025-05-01 20:22:24 [INFO] Found 1 battle box(es) for URL: https://ko.wikipedia.org/w/index.php?oldid=11263934.0
+2025-05-01 20:22:24 [INFO] Successfully scraped battle box from: https://ko.wikipedia.org/w/index.php?oldid=11263934.0
+2025-05-01 20:22:24 [INFO] Found 1 battle box(es) for URL: https://ru.wikipedia.org/w/index.php?oldid=45701202.0
+2025-05-01 20:22:24 [INFO] Successfully scraped battle box from: https://ru.wikipedia.org/w/index.php?oldid=45701202.0
+2025-05-01 20:22:24 [INFO] Found 1 battle box(es) for URL: https://pt.wikipedia.org/w/index.php?oldid=31620627.0
+2025-05-01 20:22:24 [INFO] Successfully scraped battle box from: https://pt.wikipedia.org/w/index.php?oldid=31620627.0
+2025-05-01 20:22:24 [INFO] Found 1 battle box(es) for URL: https://de.wikipedia.org/w/index.php?oldid=102700698.0
+2025-05-01 20:22:24 [INFO] Successfully scraped battle box from: https://de.wikipedia.org/w/index.php?oldid=102700698.0
+2025-05-01 20:22:24 [INFO] Found 2 battle box(es) for URL: https://pl.wikipedia.org/w/index.php?oldid=43641077.0
+2025-05-01 20:22:24 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=43641077.0
+2025-05-01 20:22:24 [INFO] Found 1 battle box(es) for URL: https://it.wikipedia.org/w/index.php?oldid=63673893.0
+2025-05-01 20:22:24 [INFO] Successfully scraped battle box from: https://it.wikipedia.org/w/index.php?oldid=63673893.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://fr.wikipedia.org/w/index.php?oldid=116406947.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://fr.wikipedia.org/w/index.php?oldid=116406947.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=43641077.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://sv.wikipedia.org/w/index.php?oldid=24371810.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://sv.wikipedia.org/w/index.php?oldid=24371810.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://pt.wikipedia.org/w/index.php?oldid=39793860.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://pt.wikipedia.org/w/index.php?oldid=39793860.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://de.wikipedia.org/w/index.php?oldid=96692525.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://de.wikipedia.org/w/index.php?oldid=96692525.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=692497077.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=692497077.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://it.wikipedia.org/w/index.php?oldid=67037144.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://it.wikipedia.org/w/index.php?oldid=67037144.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://ru.wikipedia.org/w/index.php?oldid=57714156.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://ru.wikipedia.org/w/index.php?oldid=57714156.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://fr.wikipedia.org/w/index.php?oldid=96744805.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://fr.wikipedia.org/w/index.php?oldid=96744805.0
+2025-05-01 20:22:25 [INFO] Found 2 battle box(es) for URL: https://pl.wikipedia.org/w/index.php?oldid=45962003.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=45962003.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://ca.wikipedia.org/w/index.php?oldid=10664568.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://ca.wikipedia.org/w/index.php?oldid=10664568.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=45962003.0
+2025-05-01 20:22:25 [INFO] Found 1 battle box(es) for URL: https://es.wikipedia.org/w/index.php?oldid=21115010.0
+2025-05-01 20:22:25 [INFO] Successfully scraped battle box from: https://es.wikipedia.org/w/index.php?oldid=21115010.0
+2025-05-01 20:22:26 [INFO] Found 1 battle box(es) for URL: https://sv.wikipedia.org/w/index.php?oldid=43180214.0
+2025-05-01 20:22:26 [INFO] Successfully scraped battle box from: https://sv.wikipedia.org/w/index.php?oldid=43180214.0
+2025-05-01 20:22:26 [INFO] Found 1 battle box(es) for URL: https://de.wikipedia.org/w/index.php?oldid=160356892.0
+2025-05-01 20:22:26 [INFO] Successfully scraped battle box from: https://de.wikipedia.org/w/index.php?oldid=160356892.0
+2025-05-01 20:22:26 [INFO] Found 1 battle box(es) for URL: https://tr.wikipedia.org/w/index.php?oldid=19299476.0
+2025-05-01 20:22:26 [INFO] Successfully scraped battle box from: https://tr.wikipedia.org/w/index.php?oldid=19299476.0
+2025-05-01 20:22:26 [INFO] Found 1 battle box(es) for URL: https://pt.wikipedia.org/w/index.php?oldid=39704750.0
+2025-05-01 20:22:26 [INFO] Successfully scraped battle box from: https://pt.wikipedia.org/w/index.php?oldid=39704750.0
+2025-05-01 20:22:26 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=679860991.0
+2025-05-01 20:22:26 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=679860991.0
+2025-05-01 20:22:27 [INFO] Found 1 battle box(es) for URL: https://ca.wikipedia.org/w/index.php?oldid=18409433.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://ca.wikipedia.org/w/index.php?oldid=18409433.0
+2025-05-01 20:22:27 [INFO] Found 1 battle box(es) for URL: https://it.wikipedia.org/w/index.php?oldid=62670509.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://it.wikipedia.org/w/index.php?oldid=62670509.0
+2025-05-01 20:22:27 [INFO] Found 1 battle box(es) for URL: https://ru.wikipedia.org/w/index.php?oldid=54382807.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://ru.wikipedia.org/w/index.php?oldid=54382807.0
+2025-05-01 20:22:27 [INFO] Found 1 battle box(es) for URL: https://es.wikipedia.org/w/index.php?oldid=24233858.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://es.wikipedia.org/w/index.php?oldid=24233858.0
+2025-05-01 20:22:27 [INFO] Found 1 battle box(es) for URL: https://fr.wikipedia.org/w/index.php?oldid=107392912.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://fr.wikipedia.org/w/index.php?oldid=107392912.0
+2025-05-01 20:22:27 [INFO] Found 2 battle box(es) for URL: https://pl.wikipedia.org/w/index.php?oldid=51225874.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=51225874.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=51225874.0
+2025-05-01 20:22:27 [INFO] Found 2 battle box(es) for URL: https://uk.wikipedia.org/w/index.php?oldid=20960976.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://uk.wikipedia.org/w/index.php?oldid=20960976.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://uk.wikipedia.org/w/index.php?oldid=20960976.0
+2025-05-01 20:22:27 [INFO] Found 1 battle box(es) for URL: https://de.wikipedia.org/w/index.php?oldid=129041838.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://de.wikipedia.org/w/index.php?oldid=129041838.0
+2025-05-01 20:22:27 [WARNING] No battle box found for URL: https://pt.wikipedia.org/w/index.php?oldid=8236741.0
+2025-05-01 20:22:27 [INFO] Found 1 battle box(es) for URL: https://ko.wikipedia.org/w/index.php?oldid=5170483.0
+2025-05-01 20:22:27 [INFO] Successfully scraped battle box from: https://ko.wikipedia.org/w/index.php?oldid=5170483.0
+2025-05-01 20:22:28 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=483674622.0
+2025-05-01 20:22:28 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=483674622.0
+2025-05-01 20:22:28 [INFO] Found 1 battle box(es) for URL: https://it.wikipedia.org/w/index.php?oldid=83874141.0
+2025-05-01 20:22:28 [INFO] Successfully scraped battle box from: https://it.wikipedia.org/w/index.php?oldid=83874141.0
+2025-05-01 20:22:28 [INFO] Found 2 battle box(es) for URL: https://pl.wikipedia.org/w/index.php?oldid=39718621.0
+2025-05-01 20:22:28 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=39718621.0
+2025-05-01 20:22:28 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=39718621.0
+2025-05-01 20:22:28 [INFO] Found 1 battle box(es) for URL: https://ca.wikipedia.org/w/index.php?oldid=11487045.0
+2025-05-01 20:22:28 [INFO] Successfully scraped battle box from: https://ca.wikipedia.org/w/index.php?oldid=11487045.0
+2025-05-01 20:22:28 [INFO] Found 1 battle box(es) for URL: https://fr.wikipedia.org/w/index.php?oldid=141770672.0
+2025-05-01 20:22:28 [INFO] Successfully scraped battle box from: https://fr.wikipedia.org/w/index.php?oldid=141770672.0
+2025-05-01 20:22:28 [INFO] Found 1 battle box(es) for URL: https://es.wikipedia.org/w/index.php?oldid=66680025.0
+2025-05-01 20:22:28 [INFO] Successfully scraped battle box from: https://es.wikipedia.org/w/index.php?oldid=66680025.0
+2025-05-01 20:22:29 [INFO] Found 1 battle box(es) for URL: https://ko.wikipedia.org/w/index.php?oldid=2661249.0
+2025-05-01 20:22:29 [INFO] Successfully scraped battle box from: https://ko.wikipedia.org/w/index.php?oldid=2661249.0
+2025-05-01 20:22:29 [INFO] Found 1 battle box(es) for URL: https://de.wikipedia.org/w/index.php?oldid=36231050.0
+2025-05-01 20:22:29 [INFO] Successfully scraped battle box from: https://de.wikipedia.org/w/index.php?oldid=36231050.0
+2025-05-01 20:22:29 [INFO] Found 1 battle box(es) for URL: https://tr.wikipedia.org/w/index.php?oldid=13153559.0
+2025-05-01 20:22:29 [INFO] Successfully scraped battle box from: https://tr.wikipedia.org/w/index.php?oldid=13153559.0
+2025-05-01 20:22:29 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=512602912.0
+2025-05-01 20:22:29 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=512602912.0
+2025-05-01 20:22:30 [INFO] Found 1 battle box(es) for URL: https://it.wikipedia.org/w/index.php?oldid=97108994.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://it.wikipedia.org/w/index.php?oldid=97108994.0
+2025-05-01 20:22:30 [INFO] Found 2 battle box(es) for URL: https://pl.wikipedia.org/w/index.php?oldid=37665385.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=37665385.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=37665385.0
+2025-05-01 20:22:30 [INFO] Found 1 battle box(es) for URL: https://fr.wikipedia.org/w/index.php?oldid=110346152.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://fr.wikipedia.org/w/index.php?oldid=110346152.0
+2025-05-01 20:22:30 [INFO] Found 1 battle box(es) for URL: https://es.wikipedia.org/w/index.php?oldid=97321397.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://es.wikipedia.org/w/index.php?oldid=97321397.0
+2025-05-01 20:22:30 [INFO] Found 1 battle box(es) for URL: https://ru.wikipedia.org/w/index.php?oldid=78553636.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://ru.wikipedia.org/w/index.php?oldid=78553636.0
+2025-05-01 20:22:30 [INFO] Found 1 battle box(es) for URL: https://ko.wikipedia.org/w/index.php?oldid=19425885.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://ko.wikipedia.org/w/index.php?oldid=19425885.0
+2025-05-01 20:22:30 [INFO] Found 1 battle box(es) for URL: https://ca.wikipedia.org/w/index.php?oldid=17093897.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://ca.wikipedia.org/w/index.php?oldid=17093897.0
+2025-05-01 20:22:30 [INFO] Found 1 battle box(es) for URL: https://de.wikipedia.org/w/index.php?oldid=46961773.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://de.wikipedia.org/w/index.php?oldid=46961773.0
+2025-05-01 20:22:30 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=240339628.0
+2025-05-01 20:22:30 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=240339628.0
+2025-05-01 20:22:31 [INFO] Found 1 battle box(es) for URL: https://de.wikipedia.org/w/index.php?oldid=180526121.0
+2025-05-01 20:22:31 [INFO] Successfully scraped battle box from: https://de.wikipedia.org/w/index.php?oldid=180526121.0
+2025-05-01 20:22:31 [INFO] Found 1 battle box(es) for URL: https://it.wikipedia.org/w/index.php?oldid=80401009.0
+2025-05-01 20:22:31 [INFO] Successfully scraped battle box from: https://it.wikipedia.org/w/index.php?oldid=80401009.0
+2025-05-01 20:22:31 [INFO] Found 2 battle box(es) for URL: https://pl.wikipedia.org/w/index.php?oldid=40695276.0
+2025-05-01 20:22:31 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=40695276.0
+2025-05-01 20:22:31 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=40695276.0
+2025-05-01 20:22:31 [INFO] Found 1 battle box(es) for URL: https://fr.wikipedia.org/w/index.php?oldid=118854061.0
+2025-05-01 20:22:31 [INFO] Successfully scraped battle box from: https://fr.wikipedia.org/w/index.php?oldid=118854061.0
+2025-05-01 20:22:32 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=602862833.0
+2025-05-01 20:22:32 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=602862833.0
+2025-05-01 20:22:32 [INFO] Found 1 battle box(es) for URL: https://de.wikipedia.org/w/index.php?oldid=156255855.0
+2025-05-01 20:22:32 [INFO] Successfully scraped battle box from: https://de.wikipedia.org/w/index.php?oldid=156255855.0
+2025-05-01 20:22:32 [INFO] Found 2 battle box(es) for URL: https://pl.wikipedia.org/w/index.php?oldid=24057555.0
+2025-05-01 20:22:32 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=24057555.0
+2025-05-01 20:22:32 [INFO] Found 1 battle box(es) for URL: https://fr.wikipedia.org/w/index.php?oldid=24380656.0
+2025-05-01 20:22:32 [INFO] Successfully scraped battle box from: https://fr.wikipedia.org/w/index.php?oldid=24380656.0
+2025-05-01 20:22:32 [INFO] Successfully scraped battle box from: https://pl.wikipedia.org/w/index.php?oldid=24057555.0
+2025-05-01 20:22:33 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=662728441.0
+2025-05-01 20:22:33 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=662728441.0
+2025-05-01 20:22:33 [INFO] Found 1 battle box(es) for URL: https://de.wikipedia.org/w/index.php?oldid=33635061.0
+2025-05-01 20:22:33 [INFO] Successfully scraped battle box from: https://de.wikipedia.org/w/index.php?oldid=33635061.0
+2025-05-01 20:22:34 [INFO] Found 1 battle box(es) for URL: https://fr.wikipedia.org/w/index.php?oldid=32647403.0
+2025-05-01 20:22:34 [INFO] Successfully scraped battle box from: https://fr.wikipedia.org/w/index.php?oldid=32647403.0
+2025-05-01 20:22:34 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=315173580.0
+2025-05-01 20:22:34 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=315173580.0
+2025-05-01 20:22:36 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=683373976.0
+2025-05-01 20:22:36 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=683373976.0
+2025-05-01 20:22:36 [INFO] Found 1 battle box(es) for URL: https://en.wikipedia.org/w/index.php?oldid=344702645.0
+2025-05-01 20:22:36 [INFO] Successfully scraped battle box from: https://en.wikipedia.org/w/index.php?oldid=344702645.0
+2025-05-01 20:22:36 [INFO] Closing spider (finished)
+2025-05-01 20:22:36 [INFO] Dumping Scrapy stats:
+{'downloader/request_bytes': 24625,
+ 'downloader/request_count': 67,
+ 'downloader/request_method_count/GET': 67,
+ 'downloader/response_bytes': 1950826,
+ 'downloader/response_count': 67,
+ 'downloader/response_status_count/200': 67,
+ 'elapsed_time_seconds': 12.561862,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 5, 1, 18, 22, 36, 802767, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 8286457,
+ 'httpcompression/response_count': 67,
+ 'item_scraped_count': 74,
+ 'items_per_minute': None,
+ 'log_count/INFO': 150,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 67,
+ 'responses_per_minute': None,
+ 'scheduler/dequeued': 67,
+ 'scheduler/dequeued/memory': 67,
+ 'scheduler/enqueued': 67,
+ 'scheduler/enqueued/memory': 67,
+ 'start_time': datetime.datetime(2025, 5, 1, 18, 22, 24, 240905, tzinfo=datetime.timezone.utc)}
+2025-05-01 20:22:36 [INFO] Spider closed (finished)
