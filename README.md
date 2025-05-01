@@ -16,11 +16,11 @@ C:.
 ├───battles
 │   │   items.py
 │   │   pipelines.py                 <-- pipeline including processing
-│   │   settings.py                  <-- High-level setting for scraping
+│   │   settings.py                  <-- high-level setting for scraping
 │   │   __init__.py
 │   │
 │   ├───spiders
-│   │   │   battle_spider.py        <-- Main spider - ideas to have 1 for each language
+│   │   │   battle_spider.py         <-- main spider - ideas to have 1 for each language
 │   │   │   test.ipynb
 │   │   │   __init__.py
 │   │   │
@@ -34,7 +34,7 @@ C:.
 │           settings.cpython-311.pyc
 │           __init__.cpython-311.pyc
 │
-├───raw_infoboxes                   <-- Temporary output directory for crawls - ideas to make more sophisticated
+├───raw_infoboxes                     <-- temporary output directory for crawls - ideas to make more sophisticated
 │       
 │
 └───static
